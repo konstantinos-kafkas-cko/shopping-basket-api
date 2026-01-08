@@ -74,6 +74,8 @@ docker-compose -f docker-compose.yml up --build
 
 5. Click "Execute"
 6. Copy the **token value only** from the response (without the "Bearer" prefix)
+7. Important: Make sure you copy only the token value, without quotation marks.
+   Paste it into a text editor first to verify that no extra characters or quotes are included before using it.
 
 Example response:
 ```json
