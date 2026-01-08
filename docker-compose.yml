@@ -1,0 +1,10 @@
+﻿services:
+  shoppingbasket.api:
+    image: shoppingbasket.api
+    build:
+      context: .
+      dockerfile: ShoppingBasket.Api/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "8080:8080"  # Map container port 8080 to host port 8080
