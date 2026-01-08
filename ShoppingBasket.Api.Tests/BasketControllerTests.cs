@@ -2,6 +2,7 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
+using ShoppingBasket.Api;
 using ShoppingBasket.Api.Controllers;
 using ShoppingBasket.Api.Services;
 

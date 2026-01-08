@@ -1,4 +1,5 @@
 using Moq;
+using ShoppingBasket.Api;
 using ShoppingBasket.Api.Models;
 using ShoppingBasket.Api.Options;
 using ShoppingBasket.Api.Repositories;
