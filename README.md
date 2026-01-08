@@ -336,6 +336,9 @@ POST /api/basket/shipping?country=UK
    - Move discounts, shipping costs, and VAT configuration from `appsettings.json` into the database
    - Allow runtime updates without redeploying the application
 
+- **Integration Testing**
+   - Add end-to-end integration tests covering all API endpoints
+
 ## Important Notes
 
 - **Authentication**: All basket endpoints require a valid JWT token. Always authenticate first using `/auth/login`.
