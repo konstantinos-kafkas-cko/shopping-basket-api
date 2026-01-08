@@ -4,7 +4,6 @@ using System.Text;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
-using Swashbuckle.AspNetCore.Annotations;
 
 namespace ShoppingBasket.Api.Controllers;
 

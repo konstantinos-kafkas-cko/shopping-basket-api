@@ -10,7 +10,7 @@ public class LoginRequestExample : IExamplesProvider<LoginRequest>
         return new LoginRequest
         {
             Username = "admin",
-            Password = "password",
+            Password = "password"
         };
     }
 }

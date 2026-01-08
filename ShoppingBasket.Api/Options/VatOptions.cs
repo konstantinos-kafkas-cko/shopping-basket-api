@@ -1,7 +1,6 @@
-
 namespace ShoppingBasket.Api.Options;
 
 public class VatOptions
 {
-    public decimal Vat { set; get; }
+    public decimal Vat { get; set; }
 }

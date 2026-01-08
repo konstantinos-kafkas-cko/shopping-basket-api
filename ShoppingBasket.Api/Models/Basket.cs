@@ -6,7 +6,7 @@ public class Basket
     public Dictionary<string, BasketItem> Items { get; set; } = new();
     public HashSet<string> AppliedDiscountCodes { get; set; } = new(StringComparer.OrdinalIgnoreCase);
     public string? ShippingRegion { get; set; }
-    
+
     public decimal TotalDiscountedItemsPrice =>
         Items.Values
             .Where(i => i.IsDiscounted)
